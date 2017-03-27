@@ -47,15 +47,11 @@ def contents(path):
 		if file_ext == 'py':
 			py_files.append(filename)
 	return py_files
-		
-		
-		
 	
 	
-		
-		
 if __name__ == '__main__':
 	
 	file_arg = sys.argv
 	path = path(file_arg)
-	contents(path)
+	py_files = contents(path)
+	pprint(py_files)
