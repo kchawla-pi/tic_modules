@@ -1,3 +1,13 @@
+"""
+Contains functions to create a module.
+Usage:
+Navigate to the root directory of the directory containing the .py files for the new module.
+$<python interpreter name> create_modules.py <dir containing .py files for the modules>
+Example:
+	$py.exe create_modules label
+
+creates the module 'label' contiaing all the .py files in the dir label.
+"""
 
 import os
 import sys
