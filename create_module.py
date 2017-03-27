@@ -18,7 +18,8 @@ import time
 def path(file_arg):
 	"""
 	Generates the path of the directory with the .py files for the new module.
-	:return:
+	:param [str,] file_arg: list contaning various cammand line options.
+	:return: (str) path
 	"""
 	
 	cwd = os.getcwd()
@@ -27,7 +28,7 @@ def path(file_arg):
 	except:
 		path = os.getcwd()
 	finally:
-		contents(path)
+		return path
 
 
 def contents(path):
@@ -35,21 +36,26 @@ def contents(path):
 	Retrieves the list of files and directories in dir specified by 'path'.
 	Does not parse subdirectories.
 	:param (str) path
-	:return:
+	:return: [str,] list of names of .py files
 	"""
 	
 	for root, dirs, files in os.walk(path, topdown=True):
-		print('_' * 29)
-		pprint('root')
-		print(root)
-		print('dirs')
-		pprint(dirs)
-		print('files')
-		pprint(files)
 		break
+	py_files = []
+	for file_ in files:
+		filename, file_ext = file_.split('.')
+		if file_ext == 'py':
+			py_files.append(filename)
+	return py_files
+		
+		
+		
+	
+	
 		
 		
 if __name__ == '__main__':
 	
 	file_arg = sys.argv
-	path(file_arg)
+	path = path(file_arg)
+	contents(path)
