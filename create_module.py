@@ -15,6 +15,21 @@ from pprint import pprint
 import time
 
 
+def path(file_arg):
+	"""
+	Generates the path of the directory with the .py files for the new module.
+	:return:
+	"""
+	
+	cwd = os.getcwd()
+	try:
+		path = os.path.join(cwd, file_arg[1])
+	except:
+		path = os.getcwd()
+	finally:
+		contents(path)
+
+
 def contents(path):
 	"""
 	Retrieves the list of files and directories in dir specified by 'path'.
@@ -35,14 +50,6 @@ def contents(path):
 		
 		
 if __name__ == '__main__':
-	cwd = os.getcwd()
-	print(cwd)
-	argins = sys.argv
-	try:
-		path = os.path.join(cwd, argins[1])
-		print(path)
-	except:
-		path = os.getcwd()
-	finally:
-		time.sleep(5)
-		contents(path)
+	
+	file_arg = sys.argv
+	path(file_arg)
