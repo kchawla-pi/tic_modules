@@ -44,7 +44,7 @@ def contents(path):
 	py_files = []
 	for file_ in files:
 		filename, file_ext = file_.split('.')
-		if file_ext == 'py':
+		if file_ext == 'py' and '__init__' not in filename:
 			py_files.append(filename)
 	return py_files
 	
