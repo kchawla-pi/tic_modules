@@ -6,7 +6,7 @@ $<python interpreter name> create_modules.py <dir containing .py files for the m
 Example:
 	$py.exe create_modules label
 
-creates the module 'label' contiaing all the .py files in the dir label.
+creates the module 'label' containing all the .py files in the dir label.
 """
 
 import os
