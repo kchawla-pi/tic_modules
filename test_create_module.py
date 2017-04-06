@@ -6,8 +6,12 @@ from create_module import path
 
 class CreateModuleTest(unittest.TestCase):
 
-
     def test_path(self):
+        create_module_path = os.getcwd()
+            # "C:/Users/kshit/Dropbox/libraries/kc/workspace/kc/tic_modules"
+        path_dirs = create_module_path.split(os.sep)
+        for dir in os.scandir(os.pardir):
+            print(dir)
         default_path_parts = ['D:\\', 'libraries', 'kc', 'workspace', 'tic', 'kc', 'tic_modules']  # dir names of path in windows
         default_path = ''
         test_dirs = ['label', 'tools']
