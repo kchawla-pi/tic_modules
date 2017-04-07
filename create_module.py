@@ -18,13 +18,16 @@ import time
 def path(file_arg):
     """
     Generates the path of the directory with the .py files for the new module.
-    :param [str,] file_arg: list contaning various cammand line options.
+    :param [str,] file_arg: list containing various command line options.
     :return: (str) path
     """
     
     cwd = os.getcwd()
     try:
-        path = os.path.join(cwd, file_arg[1])
+        if isinstance(file_arg, list):
+            path = os.path.join(cwd, file_arg[1])
+        elif isinstance(file_arg, str):
+            path = os.path.join(cwd, file_arg)
     except:
         path = os.getcwd()
     finally:
