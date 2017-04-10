@@ -14,8 +14,10 @@ import sys
 from pprint import pprint
 import time
 
+root_dir = ('tic_modules',)
+core_files_dir = os.getcwd()
 
-def path(file_arg):
+def get_path(file_arg):
     """
     Generates the path of the directory with the .py files for the new module.
     :param [str,] file_arg: list containing various command line options.
@@ -44,17 +46,19 @@ def contents(path):
     
     for root, dirs, files in os.walk(path, topdown=True):
         break  # limits tree walk to the current directory
-    py_files = []
+    py_files = set()
     for file_ in files:
         filename, file_ext = file_.split('.')
-        if file_ext == 'py' and '__init__' not in filename:
-            py_files.append(filename)
+        if file_ext == 'py':  # and '__init__' not in filename:
+            py_files.add(filename)
     return py_files
-    
-    
-if __name__ == '__main__':
-    
+
+
+def main():
     file_arg = sys.argv
-    path = path(file_arg)
+    path = get_path(file_arg)
     py_files = contents(path)
     pprint(py_files)
+    
+if __name__ == '__main__':
+    main()
