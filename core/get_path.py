@@ -18,19 +18,25 @@ def dp(*arg):
     print('\n', '-' * 50, 'END', '-' * 50, '\n', sep='\n')
 
 
-def inputs():
+def paths():
     """
     Gets the inputs given as terminal parameters and processes them.
     :return:
     """
-    file_arg = sys.argv
+    
+    path_is_abs = 'empty'
     for i in range(0, len(file_arg)):
         if file_arg[i]:
             path_is_abs = file_arg[i] == os.sep or \
                           file_arg[i][0] == os.sep or \
                           file_arg[i][1] == os.sep
+    
     dp(file_arg)
     dp(path_is_abs)
+    
+def main():
+    file_arg = sys.argv
+    paths(file_arg)
     
 inputs()
 
