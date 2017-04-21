@@ -17,6 +17,11 @@ import time
 root_dir = ('tic_modules',)
 core_files_dir = os.getcwd()
 
+def get_args():
+    file_args = sys.argv
+    print(file_args)
+
+
 def get_path(file_arg):
     """
     Generates the path of the directory with the .py files for the new module.
@@ -25,6 +30,7 @@ def get_path(file_arg):
     """
     
     cwd = os.getcwd()
+    # print('cwd', cwd)
     try:
         if isinstance(file_arg, list):
             path = os.path.join(cwd, file_arg[1])
@@ -44,19 +50,23 @@ def contents(path):
     :return: [str,] list of names of .py files
     """
     
-    for root, dirs, files in os.walk(path, topdown=True):
+    for root, dirs, files in os.walk(path, topdown=False):
         break  # limits tree walk to the current directory
-    py_files = set()
-    for file_ in files:
-        filename, file_ext = file_.split('.')
-        if file_ext == 'py':  # and '__init__' not in filename:
-            py_files.add(filename)
+    if files:
+        py_files = set()
+        for file_ in files:
+            filename, file_ext = file_.split('.')
+            if file_ext == 'py':  # and '__init__' not in filename:
+                py_files.add(filename)
     return py_files
 
 
-def main():
-    file_arg = sys.argv
+def main(fn_arg=''):
+    get_args()
+    if fn_arg == '':
+        file_arg = sys.argv
     path = get_path(file_arg)
+    print(path)
     py_files = contents(path)
     pprint(py_files)
     

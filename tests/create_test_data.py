@@ -1,8 +1,6 @@
 import os
-from pprint import pprint as pp  # for ease of priningt lists during debugging.
 
-from create_module import path  # serves no purpose in this file, yet.
-
+from core.create_module import get_path  # serves no purpose in this file, yet.
 
 # TODO: os.walk(topdown=false) from os.getcwd() and locate test_dirs == ['labels', 'tools']. Use that to contruct common_tree.
 
@@ -26,7 +24,7 @@ test_dir_start_idx = len(create_module_path.split(os.sep))
 tests_subtrees = [os.sep.join(dirs[test_dir_start_idx:]) for dirs in tests_subtree_dirs]
 
 for case in range(0, len(tests_subtrees)):
-    path_check = path(tests_subtrees[case]) == os.sep.join(tests_subtree_dirs[case])
+    path_check = get_path(tests_subtrees[case]) == os.sep.join(tests_subtree_dirs[case])
     print(path_check)
 # path()
 print()
