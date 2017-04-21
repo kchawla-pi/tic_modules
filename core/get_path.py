@@ -6,6 +6,12 @@ from pprint import pprint
 
 
 def dp(*arg):
+    """
+    Custom print function for debugging. Iterates through (arg), prints each element in easy to distinguish
+    manner.
+    :param arg:
+    :return: None
+    """
     print('\n','-'*50, 'Start', '-'*50, '\n', sep='\n')
     for i in arg:
         print(i)
@@ -13,15 +19,20 @@ def dp(*arg):
 
 
 def inputs():
+    """
+    Gets the inputs given as terminal parameters and processes them.
+    :return:
+    """
     file_arg = sys.argv
     for i in range(0, len(file_arg)):
         if file_arg[i]:
             path_is_abs = file_arg[i] == os.sep or \
                           file_arg[i][0] == os.sep or \
                           file_arg[i][1] == os.sep
-    print(file_arg)
-
-# dp(file_arg)
+    dp(file_arg)
+    dp(path_is_abs)
+    
+inputs()
 
 #
 #
