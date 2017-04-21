@@ -11,8 +11,8 @@ def dp(*arg):
         print(i)
     print('\n', '-' * 50, 'END', '-' * 50, '\n', sep='\n')
 
-
-file_arg = sys.argv
+def inputs():
+    file_arg = sys.argv
 # if file_arg:
 #     file_arg = os.getcwd()
 dp(file_arg)
