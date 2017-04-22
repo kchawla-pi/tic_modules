@@ -12,33 +12,48 @@ def dp(*arg):
     :param arg:
     :return: None
     """
-    print('\n','-'*50, 'Start', '-'*50, '\n', sep='\n')
+    print('-'*50, 'Start', '-'*50, sep='\n')
     for i in arg:
         print(i)
-    print('\n', '-' * 50, 'END', '-' * 50, '\n', sep='\n')
+    print('-' * 50, 'END', '-' * 50, sep='\n')
 
 
-def paths():
+def paths(file_arg):
     """
     Gets the inputs given as terminal parameters and processes them.
     :return:
     """
-    
+    print()
     path_is_abs = 'empty'
-    for i in range(0, len(file_arg)):
-        if file_arg[i]:
-            path_is_abs = file_arg[i] == os.sep or \
-                          file_arg[i][0] == os.sep or \
-                          file_arg[i][1] == os.sep
+    # for i in range(0, len(file_arg)):
+    if file_arg[1]:
+        print(1)
+        path_is_abs = file_arg[1] == os.sep or \
+                      file_arg[1][0] == os.sep or \
+                      file_arg[1][2] == os.sep  # for when coding on windows
+        
+    if path_is_abs is False:
+        cwd = os.getcwd()
+        if file_arg[1]:
+            path_ = os.sep.join([cwd, file_arg[1]])
+        else:
+            path_ = cwd
+    elif path_is_abs is True:
+        path_ = file_arg[1]
     
-    dp(file_arg)
-    dp(path_is_abs)
+    print('cwd:', os.getcwd())
+    print('file_arg:', file_arg)
+    print('path_is_abs:', path_is_abs)
+    print('path_:', path_)
+    print('path_ exists:', os.path.exists(path_))
+    
     
 def main():
     file_arg = sys.argv
     paths(file_arg)
-    
-inputs()
+
+if __name__ == '__main__':
+    main()
 
 #
 #
