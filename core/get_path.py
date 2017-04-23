@@ -40,7 +40,8 @@ def inputs(file_arg):
         else:
             paths(file_arg[1])
         
-def resolve_pardir_paths(path_arg):
+        
+def resolve_pardir_in_path(path_arg):
     path_arg_parts = path_arg.split(os.sep)
     if path_arg_parts[0] == os.pardir:
         pardir_idx = list()
@@ -58,27 +59,36 @@ def resolve_pardir_paths(path_arg):
         pre_path_parts = cwd_parts[:-pardir_count]
         pre_path_parts.extend(post_path_parts)
         path_arg = os.sep.join(pre_path_parts)
-        return path_arg
+    return path_arg
     
     
 def resolve_curdir_in_path(path_arg):
     path_arg_parts = path_arg.split(os.sep)
+    print(path_arg_parts)
     if path_arg_parts[0] == os.curdir:
+        path_arg_parts.reverse()
         curdir_idx = list()
         curdir_count = 0
         for idx, part_ in enumerate(path_arg_parts):
-            # print(idx, part_)
+            print(idx, part_)
             if part_ == os.curdir:
                 curdir_idx.append(idx)
                 curdir_count += 1
             else:
                 break
-        post_path_parts = path_arg_parts[idx:]
-        cwd = os.getcwd()
-        cwd_parts = cwd.split(os.sep)
-        pre_path_parts = cwd_parts[:-curdir_count]
-        pre_path_parts.extend(post_path_parts)
-        path_arg = os.sep.join(pre_path_parts)
+        # print(curdir_idx)
+        # print(curdir_count)
+        post_path_parts = path_arg_parts[curdir_count:]
+        # print(post_path_parts)
+        path_arg = post_path_parts
+    return path_arg
+
+
+def resolve_dots_in_path(path_arg):
+    path_arg = resolve_curdir_in_path(path_arg)
+    path_arg = resolve_pardir_in_path(path_arg)
+    return path_arg
+    
 
 def paths(path_arg):
     """
@@ -93,8 +103,8 @@ def paths(path_arg):
     path_is_abs = path_arg == os.sep or \
                   path_arg[0] == os.sep or \
                   path_arg[2] == os.sep  # for when coding on windows- root is C:\, for example.
-    path_arg = resolve_pardir_paths(path_arg)
-    
+
+    path_arg = resolve_dots_in_path(path_arg)
     
     ## pre_path_parts = os.sep.join(cwd_parts[:-pardir_count])
     ## print('pre_path_parts', pre_path_parts)
