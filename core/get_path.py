@@ -40,37 +40,61 @@ def inputs(file_arg):
         else:
             paths(file_arg[1])
         
-
+def resolve_pardir_paths(path_arg):
+    path_arg_parts = path_arg.split(os.sep)
+    if path_arg_parts[0] == os.pardir:
+        pardir_idx = list()
+        pardir_count = 0
+        for idx, part_ in enumerate(path_arg_parts):
+            # print(idx, part_)
+            if part_ == os.pardir:
+                pardir_idx.append(idx)
+                pardir_count += 1
+            else:
+                break
+        post_path_parts = path_arg_parts[idx:]
+        cwd = os.getcwd()
+        cwd_parts = cwd.split(os.sep)
+        pre_path_parts = cwd_parts[:-pardir_count]
+        pre_path_parts.extend(post_path_parts)
+        path_arg = os.sep.join(pre_path_parts)
+        return path_arg
 
 def paths(path_arg):
     """
     Gets the inputs given as terminal parameters and processes them.
     :return:
     """
-    # dp(path_arg)
+    """
+    path_arg == os.sep  :  if os.sep, then at root of *nix system
+    path_arg[0] == os.sep  :  if first character is os.sep, then abs path of *nix os.
+    path_arg[2] == os.sep  # for when coding on windows- root is C:\, for example.
+    """
     path_is_abs = path_arg == os.sep or \
                   path_arg[0] == os.sep or \
-                  path_arg[2] == os.sep  # for when coding on windows
-    path_arg_parts = path_arg.split(os.sep)
-    pardir_idx = list()
-    pardir_count = 0
-    for idx, part_ in enumerate(path_arg_parts):
-        print(idx, part_)
-        if part_ == os.pardir:
-            pardir_idx.append(idx)
-            pardir_count += 1
-        else:
-            break
-    post_path_parts = path_arg_parts[idx:]
-    cwd = os.getcwd()
-    cwd_parts = cwd.split(os.sep)
-    pre_path_parts = cwd_parts[:-pardir_count]
-    # pre_path_parts = os.sep.join(cwd_parts[:-pardir_count])
-    print('pre_path_parts', pre_path_parts)
-    print('post_path_parts', post_path_parts)
-    pre_path_parts.extend(post_path_parts)
-    print('pre_path_parts', pre_path_parts)
-    path_arg = os.sep.join(pre_path_parts)
+                  path_arg[2] == os.sep  # for when coding on windows- root is C:\, for example.
+    
+    if path_arg_parts[0] == os.curdir:
+        curdir_idx = list()
+        curdir_count = 0
+        for idx, part_ in enumerate(path_arg_parts):
+            # print(idx, part_)
+            if part_ == os.curdir:
+                curdir_idx.append(idx)
+                curdir_count += 1
+            else:
+                break
+        post_path_parts = path_arg_parts[idx:]
+        cwd = os.getcwd()
+        cwd_parts = cwd.split(os.sep)
+        pre_path_parts = cwd_parts[:-curdir_count]
+        pre_path_parts.extend(post_path_parts)
+        path_arg = os.sep.join(pre_path_parts)
+    ## pre_path_parts = os.sep.join(cwd_parts[:-pardir_count])
+    ## print('pre_path_parts', pre_path_parts)
+    ## print('post_path_parts', post_path_parts)
+    ## print('pre_path_parts', pre_path_parts)
+    
     
     if path_is_abs is False:
         path_ = os.sep.join([os.getcwd(), path_arg])
