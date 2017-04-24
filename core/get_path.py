@@ -85,13 +85,13 @@ def paths(path_arg):
     
     
     #/ for debugging
-    print('-'*50)
-    print('cwd:', os.getcwd())
-    print('path_arg:', path_arg)
-    print('path_is_abs:', path_is_abs)
-    print('path_:', path_)
-    print('path_ exists:', os.path.exists(path_))
-    print('-' * 50)
+    # print('-'*50)
+    # print('cwd:', os.getcwd())
+    # print('path_arg:', path_arg)
+    # print('path_is_abs:', path_is_abs)
+    # print('path_:', path_)
+    # print('path_ exists:', os.path.exists(path_))
+    # print('-' * 50)
     #\
 
     if os.path.exists(path_) is False:
@@ -100,6 +100,17 @@ def paths(path_arg):
         print("Terminating program...")
         quit()
     
+    
+def test():
+    test_data_file = "D:\\libraries\\kc\\Dropbox\\workspace\\tic\\kc\\tic_modules\\test_paths_from_sh.txt"
+    with open(test_data_file, 'r') as f_obj:
+        contents = f_obj.readlines()
+    for content_ in contents:
+        content_.rstrip()
+        print(content_)
+        resolve_dots_in_path(content_)
+
+
 def main():
     print()  ##
     file_arg = sys.argv
@@ -108,7 +119,8 @@ def main():
     # paths(file_arg)
 
 if __name__ == '__main__':
-    main()
+    test()
+    # main()
 
 #
 #
