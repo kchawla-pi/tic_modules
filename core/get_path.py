@@ -79,7 +79,8 @@ def test():
     global _OS_TYPE
     global _STRICT
     _STRICT = False
-    test_data_file = "D:\\libraries\\kc\\Dropbox\\workspace\\tic\\kc\\tic_modules\\tests\\data\\test_paths_from_sh.txt"
+    test_data_file = "D:\libraries\kc\Dropbox\workspace\tic\kc\tic_modules\tests\data\test_paths_from_sh.txt"
+    test_data_file = test_data_file.replace('\t', '\\t')
     print(os.path.realpath(test_data_file))
     with open(test_data_file, 'r') as f_obj:
         file_args = f_obj.readlines()
