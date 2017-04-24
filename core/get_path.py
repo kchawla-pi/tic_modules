@@ -4,7 +4,6 @@ import time
 import sys
 from pprint import pprint
 
-_OS_TYPE = 'nix'
 _COUNT = 0
 _STRICT = True
 
@@ -65,18 +64,9 @@ def paths(final_path_arg):
             quit()
     else:
         return path_
-
-    
-def get_os_type(os_info='nix'):
-    if 'win' in os_info.lower():
-        global _OS_TYPE
-        _OS_TYPE = 'win'
-        os_info = 'win'
-    return os_info
     
     
 def test():
-    global _OS_TYPE
     global _STRICT
     _STRICT = False
     test_data_file = "D:\libraries\kc\Dropbox\workspace\tic\kc\tic_modules\tests\data\test_paths_from_sh.txt"
@@ -95,21 +85,15 @@ def test():
         
 
 def use():
-    global _OS_TYPE
     global _STRICT
     _STRICT = True
-    print('use', _OS_TYPE)
     file_arg_ = sys.argv
     print('use().file_arg_:', file_arg_)
     inputs(file_arg_)
 
     
 def main():
-    global _OS_TYPE
-    os_info = platform.platform()
-    os_info = get_os_type(os_info)
-    _OS_TYPE = os_info
-    if _OS_TYPE == 'win':
+    if os.name == 'nt':
         test()
     else:
         use()
