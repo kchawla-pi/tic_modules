@@ -66,44 +66,47 @@ def paths(final_path_arg):
         return path_
     
     
-def test():
-    global _STRICT
-    _STRICT = False
-    test_data_file = "D:\libraries\kc\Dropbox\workspace\tic\kc\tic_modules\tests\data\test_paths_from_sh.txt"
-    test_data_file = test_data_file.replace('\t', '\\t')
-    print(os.path.realpath(test_data_file))
-    with open(test_data_file, 'r') as f_obj:
+def run_from_file(data_file):
+    # in nt (windows) systems, replaces \t in paths with \\t, preventing its interpretation as tab character.
+    if os.name == 'nt':
+        data_file = data_file.replace('\t', '\\t')
+    print(os.path.realpath(data_file))
+    with open(data_file, 'r') as f_obj:
         file_args = f_obj.read()
         file_args = file_args.splitlines()
     for file_arg_ in file_args:
         print()
         print('Input -- test().file_arg_:  ', file_arg_)
         str2argv = file_arg_.split(sep=' ')
-        resolved_inputs = inputs(str2argv)
-        path_ = paths(resolved_inputs)
-        print('Output -- test().path_:   ', path_)
+        use(str2argv)
+        
+        
+def run_from_terminal():
+    file_arg_ = sys.argv
+    use(file_arg_)
         
 
-def use():
-    global _STRICT
-    _STRICT = True
-    file_arg_ = sys.argv
-    print('use().file_arg_:', file_arg_)
-    resolved_inputs = inputs(file_arg_)
+def use(file_args):
+    print('use().file_arg_:', file_args)
+    resolved_inputs = inputs(file_args)
     path_ = paths(resolved_inputs)
     print('Output -- test().path_:   ', path_)
 
     
-def main():
+def main(data_file):
+    global _STRICT
     if os.name == 'nt':
-        test()
+        _STRICT = False
+        run_from_file(data_file)
     else:
-        use()
+        _STRICT = True
+        run_from_terminal()
     
 
 if __name__ == '__main__':
     print()
-    main()
+    test_data_file = "D:\libraries\kc\Dropbox\workspace\tic\kc\tic_modules\tests\data\test_paths_from_sh.txt"
+    main(test_data_file)
     
 
 
