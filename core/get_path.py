@@ -73,9 +73,9 @@ def test():
     test_data_file = test_data_file.replace('\t', '\\t')
     print(os.path.realpath(test_data_file))
     with open(test_data_file, 'r') as f_obj:
-        file_args = f_obj.readlines()
+        file_args = f_obj.read()
+        file_args = file_args.splitlines()
     for file_arg_ in file_args:
-        file_arg_ = file_arg_.rstrip()
         print()
         print('Input -- test().file_arg_:  ', file_arg_)
         str2argv = file_arg_.split(sep=' ')
@@ -89,7 +89,9 @@ def use():
     _STRICT = True
     file_arg_ = sys.argv
     print('use().file_arg_:', file_arg_)
-    inputs(file_arg_)
+    resolved_inputs = inputs(file_arg_)
+    path_ = paths(resolved_inputs)
+    print('Output -- test().path_:   ', path_)
 
     
 def main():
