@@ -54,7 +54,7 @@ def paths(final_path_arg):
     :return:
     """
     global _STRICT
-    path_ = os.path.abspath(final_path_arg)
+    path_ = os.path.realpath(os.path.expanduser(final_path_arg))
     if os.path.exists(path_) is False:
         print("ERROR. Specified path does not exist.")
         print('Interpreted path:', path_)
@@ -80,7 +80,7 @@ def test():
     global _STRICT
     _STRICT = False
     test_data_file = "D:\\libraries\\kc\\Dropbox\\workspace\\tic\\kc\\tic_modules\\tests\\data\\test_paths_from_sh.txt"
-    print(os.path.abspath(test_data_file))
+    print(os.path.realpath(test_data_file))
     with open(test_data_file, 'r') as f_obj:
         file_args = f_obj.readlines()
     for file_arg_ in file_args:
