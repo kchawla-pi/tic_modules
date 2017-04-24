@@ -67,7 +67,7 @@ def paths(final_path_arg):
         return path_
 
     
-def set_os_type(os_info='nix'):
+def get_os_type(os_info='nix'):
     if 'win' in os_info.lower():
         global _OS_TYPE
         _OS_TYPE = 'win'
@@ -106,7 +106,7 @@ def use():
 def main():
     global _OS_TYPE
     os_info = platform.platform()
-    os_info = set_os_type(os_info)
+    os_info = get_os_type(os_info)
     _OS_TYPE = os_info
     if _OS_TYPE == 'win':
         test()

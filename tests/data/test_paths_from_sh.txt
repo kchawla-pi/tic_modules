@@ -1,0 +1,10 @@
+get_path.py
+get_path.py tests/data/tic_labels/labels/
+get_path.py tests
+get_path.py /home/kc/workspace-dropbox/tic/kc/tic_modules/core
+get_path.py /home/kc/workspace-dropbox/tic/kc/tic_modules/tests
+get_path.py /home/kc/workspace-dropbox/tic/kc/tic_modules/tests labels tools
+get_path.py ../../../../tic/
+get_path.py ././../../tic/
+get_path.py ././././tic/
+get_path.py ././.././tic/
