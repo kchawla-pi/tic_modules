@@ -39,55 +39,27 @@ def inputs(file_arg):
             paths(os.getcwd())
         else:
             paths(file_arg[1])
-        
-        
-def resolve_pardir_in_path(path_arg):
-    path_arg_parts = path_arg.split(os.sep)
-    if path_arg_parts[0] == os.pardir:
-        pardir_idx = list()
-        pardir_count = 0
-        for idx, part_ in enumerate(path_arg_parts):
-            # print(idx, part_)
-            if part_ == os.pardir:
-                pardir_idx.append(idx)
-                pardir_count += 1
-            else:
-                break
-        post_path_parts = path_arg_parts[idx:]
-        cwd = os.getcwd()
-        cwd_parts = cwd.split(os.sep)
-        pre_path_parts = cwd_parts[:-pardir_count]
-        pre_path_parts.extend(post_path_parts)
-        path_arg = os.sep.join(pre_path_parts)
-    return path_arg
+         
     
-    
-def resolve_curdir_in_path(path_arg):
-    path_arg_parts = path_arg.split(os.sep)
-    print(path_arg_parts)
-    if path_arg_parts[0] == os.curdir:
-        path_arg_parts.reverse()
-        curdir_idx = list()
-        curdir_count = 0
-        for idx, part_ in enumerate(path_arg_parts):
-            print(idx, part_)
-            if part_ == os.curdir:
-                curdir_idx.append(idx)
-                curdir_count += 1
-            else:
-                break
-        # print(curdir_idx)
-        # print(curdir_count)
-        post_path_parts = path_arg_parts[curdir_count:]
-        # print(post_path_parts)
-        path_arg = post_path_parts
-    return path_arg
-
-
 def resolve_dots_in_path(path_arg):
-    path_arg = resolve_curdir_in_path(path_arg)
-    path_arg = resolve_pardir_in_path(path_arg)
-    return path_arg
+    cwd_parts = os.getcwd().split(os.sep)
+    path_arg_parts = path_arg.split(os.sep)
+    temp = list()
+    for part_ in path_arg_parts:
+        if part_ != os.curdir:
+            temp.append(part_)
+    path_arg_parts = temp.copy()
+    temp = list()
+    for part_ in path_arg_parts:
+        if part_ == os.pardir:
+            cwd_parts.pop()
+        else:
+            temp.append(part_)
+    # path_arg = os.sep.join(temp)
+    cwd_parts.extend(temp)
+    path_ = os.sep.join(cwd_parts)
+    print("path_ in fn:", path_)
+    return path_
     
 
 def paths(path_arg):
@@ -102,15 +74,9 @@ def paths(path_arg):
     """
     path_is_abs = path_arg == os.sep or \
                   path_arg[0] == os.sep or \
-                  path_arg[2] == os.sep  # for when coding on windows- root is C:\, for example.
+                  path_arg[1] == ':'  # for when coding on windows- root is C:\, for example.
 
-    path_arg = resolve_dots_in_path(path_arg)
-    
-    ## pre_path_parts = os.sep.join(cwd_parts[:-pardir_count])
-    ## print('pre_path_parts', pre_path_parts)
-    ## print('post_path_parts', post_path_parts)
-    ## print('pre_path_parts', pre_path_parts)
-    
+    path_ = resolve_dots_in_path(path_arg)
     
     if path_is_abs is False:
         path_ = os.sep.join([os.getcwd(), path_arg])
@@ -119,15 +85,17 @@ def paths(path_arg):
     
     
     #/ for debugging
+    print('-'*50)
     print('cwd:', os.getcwd())
     print('path_arg:', path_arg)
     print('path_is_abs:', path_is_abs)
     print('path_:', path_)
     print('path_ exists:', os.path.exists(path_))
+    print('-' * 50)
     #\
 
     if os.path.exists(path_) is False:
-        print("Specified path does not exist.")
+        print("ERROR. Specified path does not exist.")
         print('Interpreted path:', path_)
         print("Terminating program...")
         quit()
