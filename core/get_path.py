@@ -1,4 +1,11 @@
 """
+Requires Python 3.x
+Usage: 
+ Terminal: (In this example, the terminal prompt is represented by $) 
+    Navigate to directory containing get_path.py or type the full path after the python interpreter identifier.
+    $ cd <path to get_path.py>
+    $ python3 get_path.py <path> <dir> <options>
+ 
 For The Imaging Collective, set of functions which can receive a set of commands either from a file or from terminal
 and parse them to separate the command components.
 Command components can include:
