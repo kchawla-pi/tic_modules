@@ -2,22 +2,26 @@
 For The Imaging Collective (TIC): Module to ease addition of new modules to python path &amp; creating installable module packages.
 
 Guiding objective:
-Make it easier for tic members to build cleaner code.
-Build a set of general purpose functions which can be reused.
-Add documentation, for developers and end users.
-Add redundancy: automatic file and path search and add, exception handling, helpful messaging.
+Make it easier for tic members to build cleaner code.  
+Build a set of general purpose functions which can be reused.  
+Add documentation, for developers and end users.  
+Add redundancy:  
+    . automatic file search  
+    . automatic path search and add  
+    . exception handling  
+    . helpful messaging  
+    
 -----Design outline-----
 
-Module purpose:
-Phase 1.
-a. To automate the creation of tic packages.
-b. To automate the addition of tic paths to sit-packages.
-c. To automate Thesetting up and deployment of a mechanism for different tic releases)(virtual env are on possibility).
+Module purpose:  
+Phase 1.  
+a. To automate the creation of tic packages.  
+b. To automate the addition of tic paths to sit-packages.  
+c. To automate Thesetting up and deployment of a mechanism for different tic releases)(virtual env are on possibility).  
 
-Phase 2.
-a. To replace shell scripts with python scripts and functions.
+Phase 2.  
+a. To replace shell scripts with python scripts and functions.  
 
-1a. To automate the creation of tic packages.
 Time allotted- 1week. Start:2017/04/12 End: 2017/04/19
 [Overestimated ease of good implementation.]
 ------------------------------------------------------------------------------------------
