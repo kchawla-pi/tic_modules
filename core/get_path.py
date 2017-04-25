@@ -14,7 +14,7 @@ import sys
 from pprint import pprint
 
 _COUNT = 0
-_STRICT = True
+_DEBUG = False
 
 
 def dp(*arg):
@@ -41,7 +41,7 @@ def inputs(file_arg):
     :return: final_path_arg : the part of command containing information for the path to be used for subsequent
     operations.
     """
-    global _STRICT
+    global _DEBUG
     if len(file_arg) == 0:
         print()
         print("ERROR. Command parameters not registered!")
@@ -71,12 +71,12 @@ def paths(final_path_arg):
     :param arg: final_path_arg: part of the command containing the path information.
     :return: path_ :  The final path to be used in subsequent operations.
     """
-    global _STRICT
+    global _DEBUG
     path_ = os.path.realpath(os.path.expanduser(final_path_arg))
     if os.path.exists(path_) is False:
         print("ERROR. Specified path does not exist.")
         print('Interpreted path:', path_)
-        if _STRICT is False:
+        if _DEBUG is True:
             print("Continuing testing without terminating program.")
         else:
             print("Terminating program...")
@@ -122,20 +122,22 @@ def use(file_args):
     :param arg: list(str), file_args:
     :return: path_
     """
-    print('use().file_arg_:', file_args)
+    global _DEBUG
     resolved_inputs = inputs(file_args)
     path_ = paths(resolved_inputs)
-    print('Output -- test().path_:   ', path_)
+    if _DEBUG is True:
+        print('use().file_arg_:', file_args)
+        print('Output -- test().path_:   ', path_)
     return path_
 
     
 def main(data_file):
-    global _STRICT
+    global _DEBUG
     if os.name == 'nt':
-        _STRICT = False
+        _DEBUG = True
         run_from_file(data_file)
     else:
-        _STRICT = True
+        _DEBUG = False
         run_from_terminal()
     
 
