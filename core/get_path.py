@@ -32,6 +32,8 @@ def dp(*arg):
         print(i)
     print('.'*5, 'END', '_COUNT')
 
+def documentation():
+    print("Accepts an input")
 
 def inputs(file_arg):
     """
@@ -56,6 +58,10 @@ def inputs(file_arg):
             final_path_arg = os.getcwd()
         else:
             final_path_arg = file_arg[1]
+    if '--debug' in file_arg:
+        _DEBUG = True
+    if '--help' or '-h' in file_arg:
+        print(__doc__)
     return final_path_arg
          
 
@@ -101,7 +107,7 @@ def run_from_file(data_file):
         file_args = file_args.splitlines()
     for file_arg_ in file_args:
         print()
-        print('Input -- test().file_arg_:  ', file_arg_)
+        # print('Input -- test().file_arg_:  ', file_arg_)
         str2argv = file_arg_.split(sep=' ')
         use(str2argv)
         
@@ -126,8 +132,8 @@ def use(file_args):
     resolved_inputs = inputs(file_args)
     path_ = paths(resolved_inputs)
     if _DEBUG is True:
-        print('use().file_arg_:', file_args)
-        print('Output -- test().path_:   ', path_)
+        print('Input  -- ', file_args)
+        print('Output -- ', path_)
     return path_
 
     
