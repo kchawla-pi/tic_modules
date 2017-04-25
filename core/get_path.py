@@ -1,3 +1,12 @@
+"""
+For The Imaging Collective, set of functions which can receive a set of commands either from a file or from terminal
+and parse them to separate the command components.
+Command components can include:
+ - modules to be executed
+ - path of data for the module, paths are validated.
+ - command line switches
+Performs exception handling on commands, calls upon appropriate function based on the command line arguments.
+"""
 import os
 import platform
 import time
@@ -12,6 +21,7 @@ def dp(*arg):
     """
     Custom print function for debugging. Iterates through (arg), prints each element in easy to distinguish
     manner.
+    
     :param arg:
     :return: None
     """
@@ -25,9 +35,11 @@ def dp(*arg):
 
 def inputs(file_arg):
     """
-    Parses the command parameters given and passes them to relevant functions.
-    :param :list(str): file_arg:
-    :return:
+    Parses the command parameters given, separates and passes them to relevant functions.
+    
+    :param arg:list(str): file_arg:
+    :return: final_path_arg : the part of command containing information for the path to be used for subsequent
+    operations.
     """
     global _STRICT
     if len(file_arg) == 0:
@@ -50,7 +62,14 @@ def inputs(file_arg):
 def paths(final_path_arg):
     """
     Gets the inputs given as terminal parameters and processes them.
-    :return:
+    Functions:
+        - Path construction
+        - Path resolution and conversion between nix and nt systems.
+        - Path Verification for existence.
+        - Path related exception handling.
+        
+    :param arg: final_path_arg: part of the command containing the path information.
+    :return: path_ :  The final path to be used in subsequent operations.
     """
     global _STRICT
     path_ = os.path.realpath(os.path.expanduser(final_path_arg))
@@ -67,6 +86,12 @@ def paths(final_path_arg):
     
     
 def run_from_file(data_file):
+    """
+    Accepts a file with (multiple) command(s) in leu of individual commands given by the user from the terminal CLI.
+    Useful for batch processing and testing. Parses each listed command and passes it on to appropriate functions.
+    :param arg: str, data_file: path to text file
+    :return:
+    """
     # in nt (windows) systems, replaces \t in paths with \\t, preventing its interpretation as tab character.
     if os.name == 'nt':
         data_file = data_file.replace('\t', '\\t')
@@ -82,15 +107,26 @@ def run_from_file(data_file):
         
         
 def run_from_terminal():
+    """
+    Accepts a CLI command and passes it on to the appropriate functions.
+    :params: None
+    :return:
+    """
     file_arg_ = sys.argv
     use(file_arg_)
         
 
 def use(file_args):
+    """
+    Accepts individual command and passes it onto and around to appropriate functions.
+    :param arg: list(str), file_args:
+    :return: path_
+    """
     print('use().file_arg_:', file_args)
     resolved_inputs = inputs(file_args)
     path_ = paths(resolved_inputs)
     print('Output -- test().path_:   ', path_)
+    return path_
 
     
 def main(data_file):
@@ -105,7 +141,7 @@ def main(data_file):
 
 if __name__ == '__main__':
     print()
-    test_data_file = "D:\libraries\kc\Dropbox\workspace\tic\kc\tic_modules\tests\data\test_paths_from_sh.txt"
+    test_data_file = os.path.join(os.getcwd(), os.path.relpath("tests/data/test_paths_from_sh.txt"))
     main(test_data_file)
     
 
