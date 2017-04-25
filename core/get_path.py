@@ -13,9 +13,13 @@ Usage:
     Type the full path to get_path.py after the python interpreter identifier.
     $ python3 <path to get_path.py>/get_path.py <target-path> <target-subdir> OPTIONS
     
- <target-path> : the path to be used in subsequent processing. If unspecified, defautls to the Current Working Directory.
+ <target-path> : the path to be used in subsequent processing. If unspecified, defaults to the Current Working Directory.
  <target-subdir> : specifies a specific subdirectory to be used in subsequent processing.
+ If <target-path> OR <target-path>/<target-subdir> does not exist, raises an error and quits.
  OPTIONS:
+    --help or -h : Opens documentation (this message)
+    --debug : prints the input received from the user and the output path generated for subsequent use in other processes.
+                Prevents program from quitting in case of path error.
  
 For The Imaging Collective, set of functions which can receive a set of commands either from a file or from terminal
 and parse them to separate the command components.
@@ -83,6 +87,7 @@ def inputs(file_arg):
         _DEBUG = True
     if file_args_set.intersection(set(['--help','-h'])):
         print(__doc__)
+        quit()
     return final_path_arg
          
 
