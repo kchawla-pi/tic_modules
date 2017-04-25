@@ -1,0 +1,25 @@
+Index: create_module.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- create_module.py	(revision )
++++ create_module.py	(revision )
+@@ -10,13 +10,13 @@
+ 	"""
+ 	
+ 	# os.walk(path, topdown=False )
+-	dir_contents = dict(root='', subdirs='', files='')
++	dir_contents = {'root': '', 'subdirs': '', 'files': ''}
+ 	dir_list = list()
+ 	
+ 	for root, subdirs, files in os.walk(path, topdown=False):
+-		dir_contents.update(root=root)
+-		dir_contents.update(subdirs=subdirs)
+-		dir_contents.update(files=files)
++		dir_contents.update('root'=root)
++		dir_contents.update('subdirs'=subdirs)
++		dir_contents.update('files'=files)
+ 		dir_list.append(dir_contents.copy())
+ 	return dir_list
+ 

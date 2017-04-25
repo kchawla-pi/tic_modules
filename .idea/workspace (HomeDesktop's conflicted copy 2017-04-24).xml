@@ -1,0 +1,1372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2b51e710-2b6a-4af8-981c-25a142f49e0c" name="Default" comment="Committed source directory">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/get_path.py" afterPath="$PROJECT_DIR$/core/get_path.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/create_test_data.py" afterPath="$PROJECT_DIR$/tests/create_test_data.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/data/tic_labels/labels/~files_list.txt" afterPath="$PROJECT_DIR$/tests/data/tic_labels/labels/~files_list.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/data/tic_tools/tools/~files_list.txt" afterPath="$PROJECT_DIR$/tests/data/tic_tools/tools/~files_list.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/setup_testing.py" afterPath="$PROJECT_DIR$/tests/setup_testing.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test_create_module.py" afterPath="$PROJECT_DIR$/tests/test_create_module.py" />
+    </list>
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="tic_modules" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
+      <file leaf-file-name="create_module.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/create_module.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1387">
+              <caret line="73" column="10" lean-forward="false" selection-start-line="73" selection-start-column="10" selection-end-line="73" selection-end-column="10" />
+              <folding>
+                <element signature="e#353#362#0" expanded="true" />
+                <marker date="1492373496740" expanded="true" signature="1687:1777" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="get_path.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core/get_path.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="120" column="30" lean-forward="false" selection-start-line="120" selection-start-column="30" selection-end-line="120" selection-end-column="30" />
+              <folding>
+                <element signature="e#422#431#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="~files_list.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/data/tic_labels/labels/~files_list.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="~files_list.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/data/tic_tools/tools/~files_list.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create_test_data.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/create_test_data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="533">
+              <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="genericpath.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../../../workspace/virtual_env/tic3conda/Lib/genericpath.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_get_path.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_get_path.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_paths_from_sh.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/data/test_paths_from_sh.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="setup_testing.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/setup_testing.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_create_module.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/test_create_module.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="8" column="48" lean-forward="false" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find />
+      <find>files_list</find>
+      <find>py_</find>
+      <find>tests_subtrees</find>
+      <find>\</find>
+      <find>self.tests_subtrees</find>
+      <find>cm.</find>
+      <find>self.</find>
+      <find>tests_path</find>
+      <find>_RUN_OP</find>
+      <find>abspath</find>
+      <find>_OS_TYPE</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>/</replace>
+      <replace>self.tests_relative_path</replace>
+      <replace>_RUN_GOAL</replace>
+      <replace>realpath</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="tinker" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="/Python Fragment (create_module.py:0).py" />
+        <option value="$PROJECT_DIR$/test_function.py" />
+        <option value="$PROJECT_DIR$/tools/path_func_exam_old.py" />
+        <option value="$PROJECT_DIR$/path_func_exam.py" />
+        <option value="$PROJECT_DIR$/create_test_data.py" />
+        <option value="$PROJECT_DIR$/test_setup.py" />
+        <option value="$PROJECT_DIR$/test_create_module.py" />
+        <option value="$PROJECT_DIR$/setup_testing.py" />
+        <option value="$PROJECT_DIR$/tests/setup_testing.py" />
+        <option value="$PROJECT_DIR$/tests/test_create_module.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
+        <option value="$PROJECT_DIR$/create_module.py" />
+        <option value="$PROJECT_DIR$/get_path.py" />
+        <option value="$PROJECT_DIR$/design_notes.txt" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/tests/test_get_path.py" />
+        <option value="$PROJECT_DIR$/core/test_get_path.py" />
+        <option value="$PROJECT_DIR$/core/test_paths_from_sh" />
+        <option value="$PROJECT_DIR$/scratch_path.py" />
+        <option value="$PROJECT_DIR$/core/create_module.py" />
+        <option value="$PROJECT_DIR$/core/get_contents.py" />
+        <option value="$PROJECT_DIR$/tests/data/test_paths_from_sh.txt" />
+        <option value="$PROJECT_DIR$/test_get_path.sh" />
+        <option value="$PROJECT_DIR$/core/get_path.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="tic_modules">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="Default">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="tic_modules">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tic_modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tic_modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tic_modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tic_modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tic_modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tic_modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tic_modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tic_modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tests/data" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="Python" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="tic_modules" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="tic_modules" />
+      </console-settings>
+    </option>
+    <option name="myIpythonEnabled" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\libraries\kc\Dropbox\workspace\tic\kc\tic_modules\core" />
+      <recent name="C:\Users\kshit\Dropbox\libraries\kc\workspace\kc\tic_modules\tools" />
+      <recent name="C:\Users\kshit\Dropbox\libraries\kc\workspace\tic\kc\" />
+      <recent name="D:\libraries\kc\workspace\tic\kc\tic_modules" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\libraries\kc\Dropbox\workspace\tic\kc\tic_modules\tests\data" />
+      <recent name="D:\libraries\kc\Dropbox\workspace\tic\kc\tic_modules" />
+      <recent name="D:\libraries\kc\Dropbox\workspace\tic\kc\tic_modules\core" />
+      <recent name="D:\libraries\kc\Dropbox\workspace\tic\kc\tic_modules\core\" />
+      <recent name="$PROJECT_DIR$/tests/data/tic_tools/tools" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.get_path">
+    <configuration default="false" name="get_path" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Program Files\Python36\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="tic_modules" />
+      <option name="SCRIPT_NAME" value="D:\libraries\kc\Dropbox\workspace\tic\kc\tic_modules\core\get_path.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="get_path (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Program Files\Python36\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/core" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="tic_modules" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/core/get_path.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="scratch_path" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Program Files\Python36\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="tic_modules" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scratch_path.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="create_module" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Program Files\Python36\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/core" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="tic_modules" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/core/create_module.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests in get_path.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/core" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="tic_modules" />
+      <option name="_new_pattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/core/get_path.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CompoundRunConfigurationType" factoryName="Compound Run Configuration">
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Program Files\Python36\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="tic_modules" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/setup_testing.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="C:\Program Files\Python36\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <myArguments>
+        <array />
+      </myArguments>
+      <myRunOnlyEnvs>
+        <array />
+      </myRunOnlyEnvs>
+      <module name="tic_modules" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="tic_modules" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="C:\Program Files\Python36\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="tic_modules" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="tic_modules" />
+      <option name="_new_pattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="false" name="create_module.py" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="tic_modules" />
+      <option name="SCRIPT_NAME" value="D:\libraries\kc\Dropbox\workspace\tic\kc\tic_modules\core\create_module.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="setup_t" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="tic_modules" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/setup_testing.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <list size="7">
+      <item index="0" class="java.lang.String" itemvalue="Python.create_module.py" />
+      <item index="1" class="java.lang.String" itemvalue="Python.setup_t" />
+      <item index="2" class="java.lang.String" itemvalue="Python.get_path" />
+      <item index="3" class="java.lang.String" itemvalue="Python.get_path (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Python.scratch_path" />
+      <item index="5" class="java.lang.String" itemvalue="Python.create_module" />
+      <item index="6" class="java.lang.String" itemvalue="Python tests.Unittests in get_path.py" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.get_path" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in get_path.py" />
+        <item index="2" class="java.lang.String" itemvalue="Python.create_module" />
+        <item index="3" class="java.lang.String" itemvalue="Python.get_path (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Python.scratch_path" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\KC\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2b51e710-2b6a-4af8-981c-25a142f49e0c" name="Default" comment="" />
+      <changelist id="" name="Renamed set_os_type() to get_os_type()" comment="" />
+      <changelist id="" name="Renamed set_os_type() to get_os_type()" comment="" />
+      <changelist id="" name="Refactored test() and use()" comment="" />
+      <created>1490636941903</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1490636941903</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Inital commit. IDE files added.&#10;&#10;- Pycharm IDE specific files added /.idea .&#10;- .idea/Workspace.xml added to .gitignore">
+      <created>1490639045648</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1490639045648</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added /labels with .py files for module 'label'.">
+      <created>1490639805267</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1490639805267</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added /tools with .py files for module 'tools'.">
+      <created>1490639882877</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1490639882877</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Created contents(path) to print dir contents.&#10;&#10; - contents(path) prints files &amp; directories in dir specified by 'path'.">
+      <created>1490652611061</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1490652611061</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added module docstring">
+      <created>1490652776684</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1490652776684</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Corrected typo in module docstring">
+      <created>1490652916198</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1490652916198</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Moved code for handling command line args from __main__ to path()">
+      <created>1490653912976</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1490653912976</updated>
+    </task>
+    <task id="LOCAL-00008" summary="contents() returns list of .py file names, improved path() docstring">
+      <created>1490655589007</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1490655589007</updated>
+    </task>
+    <task id="LOCAL-00009" summary="__main__ pprints return value of contents()">
+      <created>1490656028281</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1490656028281</updated>
+    </task>
+    <task id="LOCAL-00010" summary="contents() does not add __init__.py to file name list">
+      <created>1490656097595</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1490656097595</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Replaced tab indentations with 4 space indentations.">
+      <created>1491166922084</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1491166922084</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Added test_create_module.py with pelim path() test&#10;&#10; - Class CreateModuleTest created.&#10; - Method test_path() added to test path().&#10; - One test case added to test_path().">
+      <created>1491248694583</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1491248694583</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Added .//tests and .//tests//testing_data&#10;&#10; - .//tests//testing_data//tic_labels/labels&#10; - .//tests//testing_data//tic_tools//tools&#10; - Win shell script (.bat) to generate list of files for comparision in tests.">
+      <created>1491449369973</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1491449369973</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Modified //tests tree structure for simplicity.&#10;&#10; - Removed //testing_data.&#10; - Created //data with //tic_*/*&#10; - Modified files_list.txt naming scheme.&#10; - Modified Win shell script (.bat) to generate list of files for comparision in tests.">
+      <created>1491595872830</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1491595872830</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Added .//tests//** to git and pushed.&#10;&#10; - Corrects the oversight of not adding the subdir before commit.">
+      <created>1491597872507</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1491597872507</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Changed create_test_data.py. Creates paths, tests create_module&#10;.path(paths)">
+      <created>1491605889720</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1491605889720</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Changed path() to accept strings or lists as args&#10;&#10;  - can accept subtrees as strings.&#10;  - Helps in unit testing path().&#10;  - .//&lt;subtrees&gt; can be entered as arguments.">
+      <created>1491606193092</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1491606193092</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Created working test for create_module.path() in test_create_module.py &#10;&#10;  - Transferred create_test_data.py code to test_create_module.py&#10;  - method CreateModuleTest.create_test_data()&#10;  - method CreateModuleTest.test_path()">
+      <created>1491607459057</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1491607459057</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Added docstrings and comments">
+      <created>1491608390719</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1491608390719</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Created setup_testing.py with functions to create data for testing&#10;&#10; - tests_paths()&#10; - files_list()&#10; - files_list_filter()&#10; &#10; Docstrings, comments pending.">
+      <created>1491708647483</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1491708647483</updated>
+    </task>
+    <task id="LOCAL-00021" summary="setup_testing.py functions to create data for testing&#10; &#10; - tests_paths()&#10; - files_list()&#10; - files_list_filter()&#10; &#10;Moved functions out of test_create_module.py&#10;Docstrings, comments pending.">
+      <created>1491709411636</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1491709411636</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Moved __main__ to main(). Renamed path() to get_path()&#10;&#10; - __main__ to main() for ease of unit testing __main__&#10; - path() to get_path(): fixes conflict with path var.">
+      <created>1491790570163</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1491790570163</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Moved __main__ to main(). Renamed path() to get_path()&#10;&#10; - __main__ to main() for ease of unit testing __main__&#10; - path() to get_path(): fixes conflict with path var.">
+      <created>1491790646291</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1491790646291</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Updated README.md with planning notes on module purpose &amp; design">
+      <created>1492043662049</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1492043662049</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Moved path() aka get_path() to its own .py for better focus">
+      <created>1492792676941</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1492792676941</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Refactored into inputs() to parse the terminal options">
+      <created>1492792855555</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1492792855555</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Commented out everything after inputs()&#10;&#10;  - for loop os.walk() commented out.&#10;  - path_is_abs() commented out. &#10;  - all part of ad-hoc figuring out the .py design &amp; function.">
+      <created>1492794432900</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1492794432900</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Added docstring for dp(), inputs()">
+      <created>1492795210451</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1492795210451</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Renamed inputs() to paths(), started main()&#10;&#10;  - All part of making stuff up as I go along.&#10;  - Trying to find the best way to do what I want.&#10;  - would help to clearly articulate and plan what I want.&#10;  - will start making design docs etc soon.">
+      <created>1492796136393</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1492796136393</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Added arg for paths(), rudimentary path check, diagnostic prints">
+      <created>1492869863727</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1492869863727</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Added inputs() to parse file args from terminal">
+      <created>1492910329888</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1492910329888</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Added resolve_pardir_paths() to resolve relative paths in file arg">
+      <created>1492910942975</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1492910942975</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Added resolve_curdir_in_path() to resolve relative paths in file arg">
+      <created>1492911068748</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1492911068748</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Added resolve_dots_in_path() wrapper function">
+      <created>1492911255226</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1492911255226</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Merged rel to abspath function into resolve_dots_in_path()">
+      <created>1493040313196</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1493040313196</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Added test() to run file in windows IDE">
+      <created>1493042402046</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1493042402046</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Added use(), set_os_type; modded main(); removed resolve_dots_in__path()&#10;&#10; - added use() to run file from nix terminal.&#10; - added set_os_type to determine run system. &#10; - modified main() to direct execution to use or test depending on &#10; output of set_os_type (for nix or win resp)&#10; - replaced resolve_dots_in_path() with builtin py lib functions &#10; - refined tests()">
+      <created>1493043235848</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1493043235848</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Renamed set_os_type() to get_os_type()">
+      <created>1493053101755</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1493053101755</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Renamed set_os_type() to get_os_type()">
+      <created>1493054072721</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1493054072721</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Changed test_paths_from_sh.txt path &amp; added it to git &#10; - './test_paths_from_sh.txt' --&gt; './tests/data/test_paths_from_sh.txt'">
+      <created>1493054654126</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1493054654126</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Renamed set_os_type() to get_os_type()">
+      <created>1493054732336</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1493054732336</updated>
+    </task>
+    <task id="LOCAL-00042" summary="paths() can now resolve symlinks and user directory ~&#10; &#10; - Added two ~/&lt;relpath&gt; entries to /tests/data/test_paths_from_sh.txt">
+      <created>1493058752365</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1493058752365</updated>
+    </task>
+    <task id="LOCAL-00043" summary="'\t' in NT Path of test_paths_from_sh.txt no longer read as tab char">
+      <created>1493062928173</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1493062928173</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Replaced get_os_type &amp; global _OS_Type with builtin os.name">
+      <created>1493063242830</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1493063242830</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Modified use() to give proper output in *nix systems">
+      <created>1493063828312</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1493063828312</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Refactored test() and use()&#10;&#10; - test() &gt; run_from_file(),use()&#10; - use() &gt; run_from_terminal, use() &#10; - test_data_file path moved into main()">
+      <created>1493065366627</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1493065366627</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Refactored test() and use()&#10;&#10; - test() &gt; run_from_file(),use()&#10; - use() &gt; run_from_terminal, use() &#10; - test_data_file path moved into main()">
+      <created>1493066157907</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1493066157907</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_for_tests_setup_testing_create_test_data - 2017.04.08 at 19h 12m 34s.xml">
+      <configuration name="Unittests for tests.setup_testing.create_test_data" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_tests_setup_testing_create_test_data - 2017.04.08 at 20h 20m 08s.xml">
+      <configuration name="Unittests for tests.setup_testing.create_test_data" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_get_path_py - 2017.04.18 at 17h 57m 52s.xml">
+      <configuration name="Unittests in get_path.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_setup_testing_py - 2017.04.08 at 23h 15m 53s.xml">
+      <configuration name="Unittests in setup_testing.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_setup_testing_py - 2017.04.08 at 23h 16m 44s.xml">
+      <configuration name="Unittests in setup_testing.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_setup_testing_py - 2017.04.08 at 23h 24m 01s.xml">
+      <configuration name="Unittests in setup_testing.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_setup_testing_py - 2017.04.08 at 23h 24m 23s.xml">
+      <configuration name="Unittests in setup_testing.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_setup_testing_py - 2017.04.08 at 23h 46m 00s.xml">
+      <configuration name="Unittests in setup_testing.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_setup_testing_py - 2017.04.08 at 23h 46m 46s.xml">
+      <configuration name="Unittests in setup_testing.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_setup_testing_py - 2017.04.08 at 23h 47m 19s.xml">
+      <configuration name="Unittests in setup_testing.py" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="TodoView" selected-index="4">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12427594" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40662253" sideWeight="0.5087328" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5399361" sideWeight="0.50913423" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32800853" sideWeight="0.49815693" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3109691" sideWeight="0.48815167" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34185302" sideWeight="0.50992185" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34185302" sideWeight="0.49007818" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16798314" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5064643" sideWeight="0.49008498" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.485623" sideWeight="0.49086577" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17754729" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40662253" sideWeight="0.5087328" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3794702" sideWeight="0.5039019" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37904468" sideWeight="0.49483716" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37904468" sideWeight="0.50516284" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3420647" sideWeight="0.49721295" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48145697" sideWeight="0.49349684" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21842733" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32973805" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2494043" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.54083204" sideWeight="0.49126717" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17754729" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="BEK_SORT_TYPE" value="1" />
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="SHOW_TAG_NAMES" value="true" />
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
+    <option name="LIMIT_HISTORY" value="false" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="true" />
+    <option name="SHOW_UNVERSIONED_FILES_WHILE_COMMIT" value="false" />
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+    <MESSAGE value="setup_testing.py functions to create data for testing&#10; &#10; - tests_paths()&#10; - files_list()&#10; - files_list_filter()&#10; &#10;Moved functions out of test_create_module.py&#10;Docstrings, comments pending." />
+    <MESSAGE value="Added docstrings and comments" />
+    <MESSAGE value="Moved __main__ to main(). Renamed path() to get_path()&#10;&#10; - __main__ to main() for ease of unit testing __main__&#10; - path() to get_path(): fixes conflict with path var." />
+    <MESSAGE value="Updated README.md with planning notes on module purpose &amp; design" />
+    <MESSAGE value="Moved path() aka get_path() to its own .py for better focus" />
+    <MESSAGE value="Refactored into inputs() to parse the terminal options" />
+    <MESSAGE value="Commented out everything after inputs()&#10;&#10;  - for loop os.walk() commented out.&#10;  - path_is_abs() commented out. &#10;  - all part of ad-hoc figuring out the .py design &amp; function." />
+    <MESSAGE value="Added docstring for dp(), inputs()" />
+    <MESSAGE value="Renamed inputs() to paths(), started main()&#10;&#10;  - All part of making stuff up as I go along.&#10;  - Trying to find the best way to do what I want.&#10;  - would help to clearly articulate and plan what I want.&#10;  - will start making design docs etc soon." />
+    <MESSAGE value="Added arg for paths(), rudimentary path check, diagnostic prints" />
+    <MESSAGE value="Added inputs() to parse file args from terminal" />
+    <MESSAGE value="Added resolve_pardir_paths() to resolve relative paths in file arg" />
+    <MESSAGE value="Added resolve_curdir_in_path() to resolve relative paths in file arg" />
+    <MESSAGE value="Added resolve_dots_in_path() wrapper function" />
+    <MESSAGE value="Merged rel to abspath function into resolve_dots_in_path()" />
+    <MESSAGE value="Added test() to run file in windows IDE" />
+    <MESSAGE value="Added use(), set_os_type; modded main(); removed resolve_dots_in__path()&#10;&#10; - added use() to run file from nix terminal.&#10; - added set_os_type to determine run system. &#10; - modified main() to direct execution to use or test depending on &#10; output of set_os_type (for nix or win resp)&#10; - replaced resolve_dots_in_path() with builtin py lib functions &#10; - refined tests()" />
+    <MESSAGE value="Changed test_paths_from_sh.txt path &amp; added it to git &#10; - './test_paths_from_sh.txt' --&gt; './tests/data/test_paths_from_sh.txt'" />
+    <MESSAGE value="Renamed set_os_type() to get_os_type()" />
+    <MESSAGE value="paths() can now resolve symlinks and user directory ~&#10; &#10; - Added two ~/&lt;relpath&gt; entries to /tests/data/test_paths_from_sh.txt" />
+    <MESSAGE value="'\t' in NT Path of test_paths_from_sh.txt no longer read as tab char" />
+    <MESSAGE value="Replaced get_os_type &amp; global _OS_Type with builtin os.name" />
+    <MESSAGE value="Modified use() to give proper output in *nix systems" />
+    <MESSAGE value="Refactored test() and use()&#10;&#10; - test() &gt; run_from_file(),use()&#10; - use() &gt; run_from_terminal, use() &#10; - test_data_file path moved into main()" />
+    <MESSAGE value="Committed source directory" />
+    <option name="LAST_COMMIT_MESSAGE" value="Committed source directory" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../../../libraries/kc/workspace/kc/tic_modules/test_create_module.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../../../libraries/kc/workspace/kc/tic_modules/create_module.py</url>
+          <line>52</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/create_test_data.py</url>
+          <line>78</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/create_test_data.py</url>
+          <line>77</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/create_test_data.py</url>
+          <line>62</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/create_test_data.py</url>
+          <line>54</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/create_test_data.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/create_test_data.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/test_create_module.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/setup_testing.py</url>
+          <line>59</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/core/create_module.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/core/get_path.py</url>
+          <line>101</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="63" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../../../libraries/kc/workspace/kc/tic_modules/test_create_module.py" />
+    <entry file="file://$PROJECT_DIR$/../../../libraries/kc/workspace/kc/tic_modules/create_module.py" />
+    <entry file="file://$PROJECT_DIR$/../../../libraries/kc/workspace/kc/tic_modules/local_history.patch" />
+    <entry file="file://$PROJECT_DIR$/../../../libraries/kc/workspace/kc/tic_modules/test_create_module.py" />
+    <entry file="file://$PROJECT_DIR$/../../../libraries/kc/workspace/kc/tic_modules/create_module.py" />
+    <entry file="file://$PROJECT_DIR$/../../../libraries/kc/workspace/kc/tic_modules/local_history.patch" />
+    <entry file="file://$PROJECT_DIR$/../../../libraries/kc/workspace/kc/tic_modules/test_create_module.py" />
+    <entry file="file://$PROJECT_DIR$/../../../libraries/kc/workspace/kc/tic_modules/create_module.py" />
+    <entry file="file://$PROJECT_DIR$/../../../libraries/kc/workspace/kc/tic_modules/local_history.patch" />
+    <entry file="file://$PROJECT_DIR$/../../../libraries/kc/workspace/kc/tic_modules/test_create_module.py" />
+    <entry file="file://$PROJECT_DIR$/../../../libraries/kc/workspace/kc/tic_modules/create_module.py" />
+    <entry file="file://$PROJECT_DIR$/../../../libraries/kc/workspace/kc/tic_modules/local_history.patch" />
+    <entry file="file://$PROJECT_DIR$/../../../libraries/kc/workspace/kc/tic_modules/test_create_module.py" />
+    <entry file="file://$PROJECT_DIR$/../../../libraries/kc/workspace/kc/tic_modules/create_module.py" />
+    <entry file="file://$PROJECT_DIR$/../../../libraries/kc/workspace/kc/tic_modules/local_history.patch" />
+    <entry file="file://$PROJECT_DIR$/../../../libraries/kc/workspace/kc/tic_modules/test_create_module.py" />
+    <entry file="file://$PROJECT_DIR$/../../../libraries/kc/workspace/kc/tic_modules/create_module.py" />
+    <entry file="file://$PROJECT_DIR$/../../../libraries/kc/workspace/kc/tic_modules/local_history.patch" />
+    <entry file="file://$PROJECT_DIR$/../../../libraries/kc/workspace/kc/tic_modules/test_create_module.py" />
+    <entry file="file://$PROJECT_DIR$/../../../libraries/kc/workspace/kc/tic_modules/create_module.py" />
+    <entry file="file://$PROJECT_DIR$/../../../libraries/kc/workspace/kc/tic_modules/local_history.patch" />
+    <entry file="file://$PROJECT_DIR$/../../../libraries/kc/workspace/kc/tic_modules/create_module.py" />
+    <entry file="file://$PROJECT_DIR$/../../../libraries/kc/workspace/kc/tic_modules/local_history.patch" />
+    <entry file="file://$PROJECT_DIR$/../../../virtual_env/tic3conda/Lib/os.py" />
+    <entry file="file://$PROJECT_DIR$/../../../libraries/kc/workspace/kc/tic_modules/local_history.patch" />
+    <entry file="file://$PROJECT_DIR$/../../../libraries/kc/workspace/kc/tic_modules/test_create_module.py" />
+    <entry file="file://$PROJECT_DIR$/../../../libraries/kc/workspace/kc/tic_modules/create_module.py" />
+    <entry file="file://$PROJECT_DIR$/../../tic/kc/tic_modules/.idea/vcs.xml" />
+    <entry file="file://$PROJECT_DIR$/tools/path_func_exam_old.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="925">
+          <caret line="54" column="33" lean-forward="false" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/ntpath.py" />
+    <entry file="file://$PROJECT_DIR$/local_history.patch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/pprint.py" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.py" />
+    <entry file="file://$PROJECT_DIR$/design_notes.txt" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="36" lean-forward="false" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/test_get_path.py" />
+    <entry file="file://$PROJECT_DIR$/core/test_paths_from_sh" />
+    <entry file="file://$PROJECT_DIR$/scratch_path.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1311">
+          <caret line="69" column="35" lean-forward="false" selection-start-line="69" selection-start-column="35" selection-end-line="69" selection-end-column="35" />
+          <folding>
+            <element signature="e#2440#2791#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/get_contents.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../../workspace/virtual_env/tic3conda/Lib/genericpath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/get_path_old.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1311">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/create_module.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1387">
+          <caret line="73" column="10" lean-forward="false" selection-start-line="73" selection-start-column="10" selection-end-line="73" selection-end-column="10" />
+          <folding>
+            <element signature="e#353#362#0" expanded="true" />
+            <marker date="1492373496740" expanded="true" signature="1687:1777" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/data/test_paths_from_sh.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_get_path.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/data/tic_labels/labels/~files_list.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/data/tic_tools/tools/~files_list.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/create_test_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/setup_testing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_create_module.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="8" column="48" lean-forward="false" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/get_path.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="120" column="30" lean-forward="false" selection-start-line="120" selection-start-column="30" selection-end-line="120" selection-end-column="30" />
+          <folding>
+            <element signature="e#422#431#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20080863" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
