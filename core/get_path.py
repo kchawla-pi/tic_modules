@@ -1,17 +1,22 @@
 """
+-----------------------------------------------------------------------------------------------------------------------
 Accepts path(s) and/or subdirectory for use in subsequent operations.
 Returns assembled path(s) after performing path verification and exception handling.
 
 WARNING:
+========
     Nightly Version. Under Active Development. For testing only. Do not deploy in primary use environment.
         Incomplete Documentation and functionality. Subject to change without notice. 
 
-REQUIREMENTS:        
+REQUIREMENTS:   
+=============
     Requires Python 3.x. Intended for usage on Linux and MacOS terminals.
 
 USAGE:
+======
 Can be used from Terminal, or as a function (pending).
 Can accept terminal commands, or text file with list of commands (pending).
+ 
  
  From Terminal: (In this example, the terminal prompt is represented by $) 
     Navigate to directory containing get_path.py
@@ -21,25 +26,21 @@ Can accept terminal commands, or text file with list of commands (pending).
     Type the full path to get_path.py after the python interpreter identifier.
     $ python3 <path to get_path.py>/get_path.py <target-path> <target-subdir> OPTIONS
     
+ 
  Optional Arguments--
     <target-path>   : the path to be used in subsequent processing. If unspecified, defaults to the Current Working Directory.
     <target-subdir> : specifies a specific subdirectory to be used in subsequent processing.
  If <target-path> OR <target-path>/<target-subdir> does not exist, raises an error and quits.
+    OPTIONS
+ 
+ 
  OPTIONS:
     --help or -h : Opens documentation (this message)
     --debug : Activates Debug output and options.
                 Prints the input received from the user.
                 Prints the output path generated for subsequent use in other processes.
                 Prevents program from quitting when raising path error.
- 
- Generates a path based on input for use in subsequent processes for The Imaging Collective.
- Contains set of functions which can receive a set of commands either from a file or from terminal
-and parse them to separate the command components.
-Command components can include:
- - modules to be executed
- - path of data for the module, paths are validated.
- - command line switches
-Performs exception handling on commands, calls upon appropriate function based on the command line arguments.
+ -----------------------------------------------------------------------------------------------------------------------
 """
 import os
 import platform
