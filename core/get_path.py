@@ -65,10 +65,6 @@ def dp(*arg):
     print('.'*5, 'END', '_COUNT')
 
 
-def documentation():
-    print("Accepts an input")
-
-
 def inputs(file_arg):
     """
     Parses the command parameters given, separates and passes them to relevant functions.
