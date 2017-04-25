@@ -53,6 +53,7 @@ def inputs(file_arg):
     operations.
     """
     global _DEBUG
+    file_args_set = set(file_arg)
     if len(file_arg) == 0:
         print()
         print("ERROR. Command parameters not registered!")
@@ -67,9 +68,9 @@ def inputs(file_arg):
             final_path_arg = os.getcwd()
         else:
             final_path_arg = file_arg[1]
-    if '--debug' in file_arg:
+    if file_args_set.intersection(set('--debug')):
         _DEBUG = True
-    if '--help' or '-h' in file_arg:
+    if file_args_set.intersection(set(['--help','-h'])):
         print(__doc__)
     return final_path_arg
          
