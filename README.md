@@ -1,7 +1,7 @@
 # tic_modules
 For The Imaging Collective (TIC): Module to ease addition of new modules to python path &amp; creating installable module packages.
 
-Guiding objective:
+Guiding objective:  
 Make it easier for tic members to build cleaner code.  
 Build a set of general purpose functions which can be reused.  
 Add documentation, for developers and end users.  
@@ -25,8 +25,8 @@ a. To replace shell scripts with python scripts and functions.
 Phase 1a. To automate the creation of tic packages
 
 Time allotted- 1 week. Start:2017/04/12 End: 2017/04/19  
-[Overestimated ease of good implementation.]
-------------------------------------------------------------------------------------------
+Overestimated ease of good implementation.
+
 Phase 1a. To automate the creation of tic packages --
 
 Functions;
