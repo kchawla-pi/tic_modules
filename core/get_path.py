@@ -182,10 +182,11 @@ def main(data_file):
     
 
 if __name__ == '__main__':
-    print()
+    # print()
     test_data_file = os.path.join(os.getcwd(), os.path.relpath("tests/data/test_paths_from_sh.txt"))
-    print(main(test_data_file))
-    
+    os.sys.stdout.write((main(test_data_file)))
+    os.sys.stdout.write('\n')
+
 
 
 
