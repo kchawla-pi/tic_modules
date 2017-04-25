@@ -1,10 +1,21 @@
 """
-Requires Python 3.x
+WARNING:
+    Nightly Version. Under Active Development. For testing only. Do not deploy in primary use environment.
+        Incomplete Documentation and functionality. Subject to change without notice. 
+        
+Requires Python 3.x. Intended for usage on Linux and MacOS terminals.
 Usage: 
- Terminal: (In this example, the terminal prompt is represented by $) 
-    Navigate to directory containing get_path.py or type the full path after the python interpreter identifier.
+ From Terminal: (In this example, the terminal prompt is represented by $) 
+    Navigate to directory containing get_path.py
     $ cd <path to get_path.py>
     $ python3 get_path.py <target-path> <target-subdir> <options>
+        OR
+    Type the full path to get_path.py after the python interpreter identifier.
+    $ python3 <path to get_path.py>/get_path.py <target-path> <target-subdir> OPTIONS
+    
+ <target-path> : the path to be used in subsequent processing. If unspecified, defautls to the Current Working Directory.
+ <target-subdir> : specifies a specific subdirectory to be used in subsequent processing.
+ OPTIONS:
  
 For The Imaging Collective, set of functions which can receive a set of commands either from a file or from terminal
 and parse them to separate the command components.
