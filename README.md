@@ -22,7 +22,9 @@ c. To automate Thesetting up and deployment of a mechanism for different tic rel
 Phase 2.  
 a. To replace shell scripts with python scripts and functions.  
 
-Time allotted- 1week. Start:2017/04/12 End: 2017/04/19
+Phase 1a. To automate the creation of tic packages
+
+Time allotted- 1 week. Start:2017/04/12 End: 2017/04/19  
 [Overestimated ease of good implementation.]
 ------------------------------------------------------------------------------------------
 Phase 1a. To automate the creation of tic packages --
