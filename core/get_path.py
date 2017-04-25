@@ -27,8 +27,10 @@ Can accept terminal commands, or text file with list of commands (pending).
  If <target-path> OR <target-path>/<target-subdir> does not exist, raises an error and quits.
  OPTIONS:
     --help or -h : Opens documentation (this message)
-    --debug : prints the input received from the user and the output path generated for subsequent use in other processes.
-                Prevents program from quitting in case of path error.
+    --debug : Activates Debug output and options.
+                Prints the input received from the user.
+                Prints the output path generated for subsequent use in other processes.
+                Prevents program from quitting when raising path error.
  
  Generates a path based on input for use in subsequent processes for The Imaging Collective.
  Contains set of functions which can receive a set of commands either from a file or from terminal
