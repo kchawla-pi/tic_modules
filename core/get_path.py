@@ -4,7 +4,7 @@ Usage:
  Terminal: (In this example, the terminal prompt is represented by $) 
     Navigate to directory containing get_path.py or type the full path after the python interpreter identifier.
     $ cd <path to get_path.py>
-    $ python3 get_path.py <path> <dir> <options>
+    $ python3 get_path.py <target-path> <target-subdir> <options>
  
 For The Imaging Collective, set of functions which can receive a set of commands either from a file or from terminal
 and parse them to separate the command components.
@@ -39,8 +39,10 @@ def dp(*arg):
         print(i)
     print('.'*5, 'END', '_COUNT')
 
+
 def documentation():
     print("Accepts an input")
+
 
 def inputs(file_arg):
     """
@@ -126,7 +128,7 @@ def run_from_terminal():
     :return:
     """
     file_arg_ = sys.argv
-    use(file_arg_)
+    return use(file_arg_)
         
 
 def use(file_args):
@@ -151,13 +153,13 @@ def main(data_file):
         run_from_file(data_file)
     else:
         _DEBUG = False
-        run_from_terminal()
+        return run_from_terminal()
     
 
 if __name__ == '__main__':
     print()
     test_data_file = os.path.join(os.getcwd(), os.path.relpath("tests/data/test_paths_from_sh.txt"))
-    main(test_data_file)
+    print(main(test_data_file))
     
 
 
