@@ -73,7 +73,7 @@ def inputs(file_arg):
     Parses the command parameters given, separates and passes them to relevant functions.
     
     :param arg:list(str): file_arg:
-    :return: final_path_arg : the part of command containing information for the path to be used for subsequent
+    :return: final_path_arg :   the part of command containing information for the path to be used for subsequent
     operations.
     """
     global _DEBUG
@@ -185,10 +185,12 @@ def main(data_file):
 if __name__ == '__main__':
     # print()
     test_data_file = os.path.join(os.getcwd(), os.path.relpath("tests/data/test_paths_from_sh.txt"))
-    os.sys.stdout.write((main(test_data_file)))
+    path_ = main(test_data_file)
+    if path_ is not None:
+        os.sys.stdout.write(path_)
     os.sys.stdout.write('\n')
 
-
+""":TODO: --debug is not working in terminal. sys.stdout.write(None) is not handled."""
 
 
 
