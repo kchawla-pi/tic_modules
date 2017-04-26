@@ -92,11 +92,14 @@ def inputs(file_arg):
             final_path_arg = os.getcwd()
         else:
             final_path_arg = file_arg[1]
-    if file_args_set.intersection(set('--debug')):
+    if file_args_set.intersection(set(['--debug'])):
         _DEBUG = True
     if file_args_set.intersection(set(['--help','-h'])):
-        print(__doc__)
-        quit()
+        if _DEBUG is False:
+            print(__doc__)
+            quit()
+        else:
+            print("HELP: In non-debug mode, docstring/help would get printed here.")
     return final_path_arg
          
 
@@ -169,6 +172,7 @@ def use(file_args):
     if _DEBUG is True:
         print('Input  -- ', file_args)
         print('Output -- ', path_)
+        print('END')
     return path_
 
     
@@ -176,7 +180,7 @@ def main(data_file):
     global _DEBUG
     if os.name == 'nt':
         _DEBUG = True
-        run_from_file(data_file)
+        return run_from_file(data_file)
     else:
         _DEBUG = False
         return run_from_terminal()
