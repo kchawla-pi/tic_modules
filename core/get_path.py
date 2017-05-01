@@ -194,6 +194,11 @@ if __name__ == '__main__':
         os.sys.stdout.write(path_)
     os.sys.stdout.write('\n')
 
+"""
+testing to see if mirroring from tic_modules to make_modules means changes in former are reflected in latter
+ and vice versa or not.
+(not for the vice-versa it would seem so far.)
+"""
 
 """:TODO: --debug is not working in terminal. sys.stdout.write(None) is not handled."""
 
